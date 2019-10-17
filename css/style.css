@@ -1,0 +1,110 @@
+#arts-photos {
+	text-align: center;
+}
+
+
+.text-arts-page {
+	color: grey;
+	text-align: center;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-top: 40px;
+}
+
+figure {
+	text-align: center;
+	display: inline-block;
+}
+
+.photo {
+	display: inline-block;
+	margin-right: 40px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 60px;
+	align-content: center;
+	border-radius: 15px;
+}
+
+.pictures {
+	display: inline-block;
+	margin-left: 38px;
+}
+
+.logo-and-shipping {
+	text-align: center;
+}
+
+#top {
+	text-align: center;
+	background-color: black;
+}
+
+.free-shipping {
+	background-color: white;
+	color: black;
+	padding: 7px;
+	width: 100%;
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	position: fixed;
+}
+
+.logo {
+	padding-top: 50px;
+}
+
+.list {
+	display: inline-block;
+}
+
+
+.menu-line {
+	display: inline-block;
+	padding: 5px;
+	margin-right: 25px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dante {
+	text-align: center;
+	padding: 45px;
+	font-family: courier;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 7px;
+	width: 100%;
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+.solif {
+	background-color: white;
+	color: black;
+	width: 100%;
+	text-align: center;
+	height: 100px;
+}
+
+
+
+#map{
+	float:right;
+}
+
+.form-horizontal{
+	float:left;
+	width: 50%;
+	height: 450px;                         
+	padding-left:100px;
+	padding-top:30px;
+	
+}
+
