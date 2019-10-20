@@ -105,6 +105,19 @@ footer {
 	height: 450px;                         
 	padding-left:100px;
 	padding-top:30px;
-	
 }
 
+.about-title{
+	text-align:center;
+	margin:30px;
+}
+
+.about{
+	margin-left:100px;
+	margin-right:100px;
+}
+
+.poem{
+	margin-left:150px;
+	margin-bottom: 100px;
+}
