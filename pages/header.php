@@ -1,5 +1,6 @@
 
 
+
 <header id="top">
 
 		<div class="logo-and-shipping">
@@ -32,5 +33,11 @@
 					<li class="menu-line">CONTACT</li>
 				</a>
 			</ul>
+			<div class="account-icon">
+				<a href="account.php">
+					<i class="menu-line fas fa-user-circle"></i>
+				</a>
+			</div>
+			
 		</div>
 	</header>
