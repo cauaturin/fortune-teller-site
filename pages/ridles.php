@@ -1,25 +1,45 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-	<meta charset="utf-8">
-	<title>Home</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="../css/style.css">
-</head>
-
-<body>
-<?php require("header.php");   ?>
+<?php require "../includes/header.php";   ?>
 
 
+<br><br><br>
+<p class="aleatorio"><em>Sem conteúdo por enquanto...</em></p>
+<br><br><br>
 
-<div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Canto III</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <em>"ABANDONAI TODA ESPERANÇA, VÓS QUE AQUI ENTRAIS!"</em>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"><a class="link-do-btn" href="https://www.google.com.br">Sair do site</a></button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Permanecer no site</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 
 
 
+<?php 
+    $msg = "speranza";
+    if ($msg == "speranza"){  ?>
+        <script>
+            $(document).ready(function(){
+                $('#myModal').modal('show');
+                              });
+        </script>
+    <?php } ?>
 
 
-<?php require("footer.php");  ?>
+<?php require "../includes/footer.php";  ?>

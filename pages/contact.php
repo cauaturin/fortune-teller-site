@@ -10,23 +10,23 @@
 </head>
 
 <body>
-	<?php require("header.php");   ?>
+	<?php require "../includes/header.php";   ?>
 
 	
 	
 	
-	<div class="container-fluid">
+	<div class="container">
 		<form class="form-horizontal">
 			<fieldset>
 
 				<!-- Form Name -->
-				<legend>Contact Us</legend>
+				<legend>Entre em contato</legend>
 
 				<!-- Text input-->
 				<div class="form-group">
-					<label class="col-md-4 control-label" for="name"></label>
+					<label class="col-md-4 control-label" for="nome"></label>
 					<div class="col-md-9">
-						<input id="name" name="name" type="text" placeholder="Name" class="form-control input-md"
+						<input id="nome" name="nome" type="text" placeholder="Nome" class="form-control input-md"
 							required="">
 
 					</div>
@@ -45,9 +45,9 @@
 
 				<!-- Textarea -->
 				<div class="form-group">
-					<label class="col-md-4 control-label" for="message"></label>
+					<label class="col-md-4 control-label" for="mensagem"></label>
 					<div class="col-md-9">
-						<textarea class="form-control" id="message" name="message">Message...</textarea>
+						<textarea class="form-control" id="mensagem" placeholder="Mensagem..." name="mensagem"></textarea>
 					</div>
 				</div>
 
@@ -55,7 +55,7 @@
 				<div class="form-group">
 					<label class="col-md-4 control-label" for="send"></label>
 					<div class="col-md-4">
-						<button id="send" name="send" class="btn btn-dark">Send</button>
+						<button id="send" name="send" class="btn btn-dark">Enviar</button>
 					</div>
 				</div>
 
@@ -80,4 +80,4 @@
 
 
 
-	<?php require("footer.php");  ?>
+	<?php require "../includes/footer.php";  ?>
